@@ -63,4 +63,4 @@ jobs:
           script_stop: true
           script: |
             docker pull kahyunjung/9kcal:3 
-            docker run -p 8080:8080 --env-file .env kahyunjung/9kcal:3
+            docker run -p 8080:8080 -d --env-file .env kahyunjung/9kcal:3
